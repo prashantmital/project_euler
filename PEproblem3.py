@@ -18,9 +18,9 @@ print dsor
 while True:
 #	print dsor
 #	print ddend
-	if dsor == 1:
-		break
-	elif dsor >= ddend:
+#	if dsor == 1:
+#		break
+	if dsor >= ddend:
 		break
 	elif ddend%dsor==0:
 		ddend = ddend/dsor
