@@ -1,4 +1,6 @@
 from math import sqrt
+from IPython import embed
+
 
 def prime_factorize(num):
     factor_pow = list()
@@ -34,7 +36,7 @@ def prime_factorize(num):
 def compute(n_digits):
     num = 10 ** (n_digits-1)
     consec_count = 0
-    while  True:
+    while True:
         n_distinct_factors = len(prime_factorize(num)[0])
         if n_distinct_factors >= n_digits:
             consec_count += 1
@@ -46,5 +48,7 @@ def compute(n_digits):
         num += 1
     print "Done!"
 
+
 if __name__ == '__main__':
+    embed()
     compute(4)
