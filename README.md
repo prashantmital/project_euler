@@ -1,5 +1,6 @@
-# project_euler
-My project euler files: some contain solutions and some are WIP. 
+=============
+project_euler
+=============
 
 :Info: Profiler tools
 :Author: Prashant Mital
